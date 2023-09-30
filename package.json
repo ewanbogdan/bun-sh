@@ -4,10 +4,10 @@
   "homepage": "https://ewanbogdan.github.io/bun-sh",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d ./build",
     "start": "bun --hot ./src/index.tsx",
     "dev": "bun --watch index.tsx",
     "test": "bun test",
-    "deploy": "gh-pages -d build",
     "build": "bun build index.tsx --outfile=./build/bundle.js"
   },
   "devDependencies": {
