@@ -1,6 +1,7 @@
 {
   "name": "bun-test",
   "module": "index.ts",
+  "homepage": "https://ewanbogdan.github.io/bun-sh",
   "type": "module",
   "scripts": {
     "start": "bun --hot ./src/index.tsx",
