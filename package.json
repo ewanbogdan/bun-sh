@@ -3,11 +3,11 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun --hot index.tsx",
+    "start": "bun --hot ./src/index.tsx",
     "dev": "bun --watch index.tsx",
     "test": "bun test",
     "deploy": "gh-pages -d build",
-    "build": "bun build ./src/index.tsx --outfile=./build/bundle.js"
+    "build": "bun build index.tsx --outfile=./build/bundle.js"
   },
   "devDependencies": {
     "bun-types": "latest"

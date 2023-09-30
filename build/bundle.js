@@ -23471,7 +23471,7 @@ var require_jsx_dev_runtime = __commonJS((exports, module) => {
   }
 });
 
-// src/index.tsx
+// index.tsx
 var import_react2 = __toESM(require_react(), 1);
 var client = __toESM(require_client(), 1);
 
@@ -25497,13 +25497,9 @@ var UserInfo = () => {
     ]
   }, undefined, true, undefined, this);
 };
-// src/index.tsx
+// index.tsx
 var jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
-var div = document.getElementById("root");
-var root = client.createRoot(div);
-var App = () => {
-  return jsx_dev_runtime2.jsxDEV(UserInfo, {}, undefined, false, undefined, this);
-};
+var root = client.createRoot(document.getElementById("root"));
 root.render(jsx_dev_runtime2.jsxDEV(import_react2.default.StrictMode, {
-  children: jsx_dev_runtime2.jsxDEV(App, {}, undefined, false, undefined, this)
+  children: jsx_dev_runtime2.jsxDEV(UserInfo, {}, undefined, false, undefined, this)
 }, undefined, false, undefined, this));
